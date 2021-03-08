@@ -112,6 +112,7 @@ function FilterTodo(event){
 
 function SaveLocalTodos(todo){
     let todos;
+    let uncompleteTodos
     if(localStorage.getItem('todos') === null){
         todos = [];
     }else{
